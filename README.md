@@ -14,3 +14,7 @@ l) V configuration kliknemo gumb za TIM1, ki je v polju Control. Časovniku bi r
    Prescaler (PSC - 16 bit value). Koliko znaša ta vrednost? 16.000 
 
 f) Uporabite metodo TogglePin iz HAL knjižnice in zapišite ukaz: HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9)
+
+# Komentar
+
+S potenciometrom spreminjamo vrednost ADC pretvorb sproženih s časovnimi prekinitvami.
